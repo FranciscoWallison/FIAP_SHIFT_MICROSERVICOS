@@ -1,0 +1,862 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 453971663,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 201181,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"CARTAO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CARTAO\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 85188,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 91875715,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento em Cartão processado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento em Cartão processado com sucesso\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9738688,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 82764,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"CARTAO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CARTAO\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 35934,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 11028798,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento em Cartão processado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento em Cartão processado com sucesso\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10027590,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 68096,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"CARTAO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CARTAO\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 24314,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 1001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1001",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 6962131,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento não autorizado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento não autorizado\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;5",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8120009,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 57814,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"CHEQUE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHEQUE\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 40519,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 11978988,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento em Cheque processado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento em Cheque processado com sucesso\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;6",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10925683,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 272589,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"CHEQUE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHEQUE\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 27884,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8152752,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento não autorizado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento não autorizado\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;7",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6917582,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 67415,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"CHEQUE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHEQUE\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 29704,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 5000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 12908511,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento não autorizado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento não autorizado\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;8",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9896340,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 57240,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"DINHEIRO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DINHEIRO\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 21824,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 6367515,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento em Dinheiro processado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento em Dinheiro processado com sucesso\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;9",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4705658,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 66986,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"DINHEIRO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DINHEIRO\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 31010,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 6761299,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento em Dinheiro processado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento em Dinheiro processado com sucesso\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;10",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4684492,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 72082,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"DINHEIRO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DINHEIRO\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 29628,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: 5000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5682510,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento em Dinheiro processado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento em Dinheiro processado com sucesso\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Cliente efetua o pagamento",
+        "description": "",
+        "id": "venda-de-produtos-para-loja;cliente-efetua-o-pagamento;;11",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4257883,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que cliente finalizou a compra do seu Carrinho de Compras",
+            "match": {
+              "location": "Stepdefs.que_cliente_finalizou_a_compra_do_seu_Carrinho_de_Compras()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 64723,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Escolhe a opcao de pagamento: \"DINHEIRO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DINHEIRO\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.escolhe_a_opcao_de_pagamento(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 31317,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clica em finalizar Pagamento: -1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-1",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdefs.clica_em_finalizar_Pagamento(Integer)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8274825,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O pagamento tem que ser concluido com sucesso: \"Pagamento não autorizado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagamento não autorizado\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@venda"
+          },
+          {
+            "name": "@finaliza_pagamento"
+          }
+        ]
+      }
+    ],
+    "name": "Venda de produtos para Loja",
+    "description": "  Descrição da funcionalidade, preferencialmente atrelando a feature ao valor gerado para a organização",
+    "id": "venda-de-produtos-para-loja",
+    "keyword": "Funcionalidade",
+    "uri": "classpath:bddgof/venda.feature",
+    "tags": [
+      {
+        "name": "@venda",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
