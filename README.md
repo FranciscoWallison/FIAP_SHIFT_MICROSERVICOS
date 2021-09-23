@@ -12,3 +12,14 @@ To get started, create some files, play with the terminal,
 or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
 
 Happy coding!
+
+
+### API
+
+200, 203, 207 -> Respostas de Sucesso
+
+300, 301, 302 -> Mensagem de redirecionamento
+
+401, 404, 405 -> Respostas de erro do cliente
+
+500, 502, 503 -> Respostas de erro do servidor
