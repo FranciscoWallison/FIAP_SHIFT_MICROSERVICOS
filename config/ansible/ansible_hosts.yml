@@ -1,0 +1,20 @@
+# Idempotent way to build a /etc/hosts file with Ansible using your Ansible hosts inventory for a source.
+# Will include all hosts the playbook is run on.
+# Inspired from http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html
+
+---
+# https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html
+  - name: Atualizar arquivos /etc/hosts em todos os nodes
+    hosts: all
+    become: yes
+    tasks:
+        - name: Atualizar arquivos /etc/hosts
+          ansible.builtin.lineinfile: 
+            dest: "/etc/hosts"
+            #regexp: ".*\t{{ hostvars[item]['ansible_hostname']}}\t{{ hostvars[item]['ansible_hostname']}}"
+            line: "{{ hostvars[item]['ansible_ssh_host'] }}\t{{ hostvars[item]['ansible_hostname']}}\t{{ hostvars[item]['ansible_hostname']}}"
+            state: present
+            backup: yes
+          #register: etchostsupdate
+          #when: inventory_hostname != "{{ item }}" or inventory_hostname == "{{ item }}"
+          with_items: "{{groups['nodes']}}"
