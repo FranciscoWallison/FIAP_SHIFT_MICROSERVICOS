@@ -24,7 +24,7 @@ consumer.on('message', function (message) {
 });
 
 consumer.on('error', function (err) {
-    console.log('Error:',err);
+    console.log('Error-1 :',err);
 })
 
 consumer.on('offsetOutOfRange', function (topic) {

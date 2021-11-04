@@ -5,6 +5,9 @@ services:
     volumes:
      - .:/usr/src/app
      - /usr/app/node_modules
+    ports:
+     - "9092:9092"
     environment:
       KAFKA_HOST: kafka
       KAFKA_PORT: 9092
+      
