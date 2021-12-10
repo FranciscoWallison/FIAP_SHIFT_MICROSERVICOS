@@ -17,7 +17,7 @@ def create(msg):
 
         # --------
         # USAGE: https://kafka-python.readthedocs.io/en/master/usage.html
-        producer = KafkaProducer(bootstrap_servers='localhost:9092', request_timeout_ms=1000000, api_version_auto_timeout_ms=1000000)
+        producer = KafkaProducer(bootstrap_servers='localhost:9092')
 
         # Asynchronous by default
         future = producer.send(topico, texto.encode('utf-8'))
